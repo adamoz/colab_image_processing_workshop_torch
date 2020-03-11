@@ -106,8 +106,8 @@ def image_is_ok(file):
         if image.format != 'JPEG':
             return False
 
-        if image.height < 224 or image.width < 224:
-            return False
+        #if image.height < 224 or image.width < 224:
+        #    return False
 
         image.verify()
         return True
