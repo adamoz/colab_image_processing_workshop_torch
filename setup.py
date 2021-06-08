@@ -37,7 +37,7 @@ setup(
         'tqdm==4.31.1',
         'tensorflow==1.14.0',
         'requests==2.21.0',
-        'pillow==6.2.2'
+        'pillow==8.2.0'
     ],
     tests_require=['pytest'],
     cmdclass={'test': PyTest},
